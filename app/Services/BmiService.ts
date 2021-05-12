@@ -20,7 +20,7 @@ const calculateBMIInfo = async (req) => {
     }
 
     catch(err){
-        console.log(err);
+        throw new Error(`Error in calculateBMIInfo ${err}`);
     }
     
 }
