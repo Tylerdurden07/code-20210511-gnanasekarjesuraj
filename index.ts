@@ -1,5 +1,3 @@
-import express from "express";
-import calculatorRoute from './app/Routes/CalculatorRouter';
 import {createServer} from './app/Utils/Server';
 
 const PORT = process.env.PORT || 3000;
