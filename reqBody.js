@@ -1,0 +1,13 @@
+module.exports = function(requestId) {
+    // this object will be serialized to JSON and sent in the body of the request
+    return [
+        {"Gender": "Male", "HeightCm": 171, "WeightKg": 96 }, 
+        { "Gender": "Male", "HeightCm": 161, "WeightKg":85 },
+        { "Gender": "Male", "HeightCm": 180, "WeightKg": 77 },
+        { "Gender": "Female", "HeightCm": 166, "WeightKg": 62 },
+        {"Gender": "Female", "HeightCm": 150, "WeightKg": 70 },
+        {"Gender": "Female", "HeightCm": 167, "WeightKg": 82 }
+        ];
+  };
+
+
